@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "";
+    src: url() format();
+}
+
+
+.root{
+    background-color: rgba(241, 234, 234, 0.868);
+    min-width: 1280px;
+    margin: auto;
+    font-family: "Inter";
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+@media screen and (max-width: 320px) {
+    .root{
+      min-width: 320px;
+    }
+}

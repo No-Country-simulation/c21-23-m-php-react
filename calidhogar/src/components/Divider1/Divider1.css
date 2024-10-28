@@ -1,0 +1,16 @@
+#divider1 {
+    background-color: var(--amarillo);
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+#divider1>p{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 150%;
+    width: 40%;
+    margin: auto 0;
+    color: var(--amarillo-select);
+}

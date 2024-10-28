@@ -1,0 +1,55 @@
+header {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-family: "Poppins", "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.header-link>li{
+    padding: 16px;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.header-link>li>a:hover {
+    color: var(--amarillo);
+}
+
+.boton-header {
+    margin-left: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 175px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.boton-header:hover {
+    background-color: var(--amarillo-select) !important;
+}
+
+.boton-header>a {
+    text-align: center;
+    display: block;
+    padding: 12px;
+    font-weight: bold;
+    transition: color 0.2s;
+    font-family: "Roboto", sans-serif;
+}
+
+.boton-header>a:hover{
+    color: white !important;
+}

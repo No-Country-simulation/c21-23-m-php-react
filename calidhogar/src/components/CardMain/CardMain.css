@@ -1,0 +1,27 @@
+#cardmain {
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardmain>p {
+    width: 100%;
+    padding: 10px 200px;
+    display: flex;
+    justify-content: end;
+}
+
+#cardmain>p>a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#cardmain>p>a:hover {
+    color: var(--amarillo);
+}

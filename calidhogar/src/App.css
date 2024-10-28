@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.amarillo {
+  background-color: var(--amarillo) !important;
+}
+
+.borde{
+  border: 1px solid var(--celeste);
+  transition: border 2s;
+}
+
+.borde:hover{
+  border: 1px solid transparent !important;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.boton-redondo {
+  border-radius: 40px;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.boton-redondo:hover {
+  background-color: var(--amarillo-select) !important;
+  color: white !important;
+}
+
+ul {
+  list-style-type: none;
+}

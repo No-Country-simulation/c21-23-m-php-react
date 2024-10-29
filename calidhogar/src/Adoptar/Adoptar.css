@@ -1,0 +1,25 @@
+#divider3 {
+    background-color: var(--celeste);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+#divider3>p {
+    font-size: 24px;
+    font-weight: 400;
+    width: 45%;
+    margin: auto 0;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+#divider3>p>h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#divider3>img {
+    height: 90%;
+}

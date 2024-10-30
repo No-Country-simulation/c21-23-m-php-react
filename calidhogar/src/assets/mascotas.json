@@ -1,0 +1,62 @@
+[
+	{
+		"id" : 1,
+		"id_refugio" : 1,
+		"nombre" : "Sammy",
+		"especie" : "Gato",
+		"raza" : "Atigrado Naranja",
+		"sexo" : "Macho",
+		"edad" : 5,
+		"fecha_creacion" : "2024-10-29 16:47:12"
+	},
+	{
+		"id" : 2,
+		"id_refugio" : 3,
+		"nombre" : "Luki",
+		"especie" : "Perro",
+		"raza" : "Mestizo",
+		"sexo" : "Macho",
+		"edad" : 3,
+		"fecha_creacion" : "2024-10-29 16:47:12"
+	},
+	{
+		"id" : 3,
+		"id_refugio" : 2,
+		"nombre" : "Pedro",
+		"especie" : "Gato",
+		"raza" : "Pelo Corto",
+		"sexo" : "Macho",
+		"edad" : 1,
+		"fecha_creacion" : "2024-10-29 16:47:12"
+	},
+	{
+		"id" : 4,
+		"id_refugio" : 4,
+		"nombre" : "Bellota",
+		"especie" : "Gato",
+		"raza" : "Mestizo",
+		"sexo" : "Hembra",
+		"edad" : 5,
+		"fecha_creacion" : "2024-10-29 16:47:12"
+	},
+	{
+		"id" : 5,
+		"id_refugio" : 5,
+		"nombre" : "Akira",
+		"especie" : "Perro",
+		"raza" : "Mestizo",
+		"sexo" : "Macho",
+		"edad" : 2,
+		"fecha_creacion" : "2024-10-29 16:47:12"
+	},
+	{
+		"id" : 6,
+		"id_refugio" : 3,
+		"nombre" : "Toby",
+		"especie" : "Perro",
+		"raza" : "Pastor Alemán",
+		"sexo" : "Macho",
+		"edad" : 6,
+		"fecha_creacion" : "2024-10-29 16:47:12"
+	}
+]

@@ -1,10 +1,10 @@
 import './App.css';
 import Header from './components/Header/Header';
 import { Route, Routes } from 'react-router-dom';
-import Main from './Main/Main'
-import Registro from './Registro/Registro';
+import Main from './Paginas/Main/Main'
+import Registro from './Paginas/Registro/Registro';
 import Footer from './components/Footer/Footer';
-import Adoptar from './Adoptar/Adoptar';
+import Adoptar from './Paginas/Adoptar/Adoptar';
 
 function App() {
   return (

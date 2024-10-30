@@ -14,7 +14,7 @@ export default function Registro() {
                     <input type="email" placeholder='Correo Electrónico' />
                     <input type="password" placeholder='Contraseña'/>
                     <input type="password" placeholder='Confirmar Contraseña' />
-                    <input type="submit"/>
+                    <input type="submit" value="Crear Cuenta"/>
                 </form>
             </div>
         </div>

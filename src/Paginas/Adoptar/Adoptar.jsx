@@ -11,7 +11,7 @@ export default function Adoptar() {
         <div><h2>Ellos te <span style={{color:"var(--amarillo)"}}>necesitan</span></h2>
         <p>Cada animal tiene una historia, pero su final feliz depende de ti. <br/>
         Explora nuestras mascotas y dales la oportunidad de ser parte de tu vida.</p></div>
-        <img src={perrogato} />
+        <img src={perrogato} alt='Caricatura de perro y gato'/>
     </div>
     <div id='adopcion'>
       <div id='filtros'>

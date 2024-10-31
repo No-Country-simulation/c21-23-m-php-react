@@ -7,7 +7,7 @@ const Cards = ({data}) => {
     <div id='tarjetas'>
         {data.map(mascota => (
             <div key={mascota.id} className='tarjeta'>
-                <img src={`/mascotas/imagen_${mascota.id}.png`}/>
+                <img src={`/mascotas/imagen_${mascota.id}.png`} alt={`${mascota.especie} ${mascota.nombre}`}/>
                 <div>
                     <h3>{mascota.nombre}</h3>
                     <div>

@@ -1,20 +1,16 @@
 import React from 'react'
 import './Header.css';
+import icon from "/public/icon.webp"
 
 export default function Header() {
   return (
     <>
     <header>
           <ul className='header-link'>
-            <li>
-              <a href="/">Inicio</a>
-            </li>
-            <li>
-              <a href="/contacto">Contacto</a>
-            </li>
-            <li>
-              <a href="/sobre-nosotros">Sobre nosotros</a>
-            </li>
+            <li><img src={icon} alt="Ícono del sitio"/></li>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/sobre-nosotros">Sobre nosotros</a></li>
+            <li><a href="/adoptar">Adoptar</a></li>
           </ul>
           <ul>
             <li className='boton-header borde'>

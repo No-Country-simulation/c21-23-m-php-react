@@ -32,7 +32,7 @@
 }
 
 #texto2>p{
-    color: grey;
+    color: var(--amarillo-select);
     font-family: "Roboto", sans-serif;
     line-height: 180%
 }

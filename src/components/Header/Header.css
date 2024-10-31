@@ -19,6 +19,10 @@ header>ul{
     padding: 16px;
 }
 
+.header-link>li>img {
+    height: 80px;
+}
+
 header>ul>li>a {
     text-decoration: none;
     color: black;

@@ -16,6 +16,7 @@ export default function Registro() {
                     <input type="password" placeholder='Confirmar Contraseña' />
                     <input type="submit" value="Crear Cuenta"/>
                 </form>
+                <a href='/registrar-refugio'>O regístrate como refugio.</a>
             </div>
         </div>
         <div id='imagen-registro' />

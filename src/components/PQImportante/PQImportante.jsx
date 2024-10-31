@@ -1,14 +1,18 @@
 import React from 'react'
 import "./PQImportante.css"
+import gato1 from "../../assets/gato1.jpg"
+import gato2 from "../../assets/gato2.jpg"
+import perro1 from "../../assets/perro1.jpg"
+import perro2 from "../../assets/perro2.jpg"
 
 export default function PQImportante() {
   return (
     <div id="porque">
         <div id="imgPQ">
-            <img src="https://images.unsplash.com/photo-1482434368596-fbd06cae4f89?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-            <img src="https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-            <img src="https://images.unsplash.com/photo-1521673461164-de300ebcfb17?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-            <img src="https://images.unsplash.com/photo-1645810376767-932d395ef921?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+            <img src={gato1} alt="Gato con humano"/>
+            <img src={perro1} alt="Perro grande feliz"/>
+            <img src={perro2} alt="Perro pequeño feliz"/>
+            <img src={gato2} alt="Gato en un jardín"/>
         </div>
         <div id="texto2">
             <h2>¿Por qué es tan importante adoptar?</h2>
